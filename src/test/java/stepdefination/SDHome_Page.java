@@ -1,18 +1,20 @@
 package stepdefination;
 
 import com.DriverFactory.Driver_Factory;
-import com.POM.POM1_Home_Page.POM1_HomePage;
+import com.POM.POM1_Home_Page;
+
 
 import io.cucumber.java.en.*;
 
 public class SDHome_Page {
 	
-	POM1_HomePage coverfoxHomePage = new POM1_HomePage(Driver_Factory.getdriver());
+	POM1_Home_Page coverfoxHomePage = new POM1_Home_Page(Driver_Factory.getdriver());
 	
 
 	@Given("I am on Home page")
 	public void i_am_on_home_page() {
 	    System.out.println("I am on Home page");
+	    System.out.println("ok");
 	}
 
 	@When("I click on get started button")

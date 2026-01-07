@@ -23,7 +23,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Utility {
 
-	// 1) Screenshot
+			// 1) Screenshot
 	
 			public static void getScreenshot(WebDriver driver, String screenshotName) throws IOException
 			{
@@ -70,7 +70,7 @@ public class Utility {
 			public static String readDataFromPropertiesFile(String key) throws IOException
 			{
 				Properties properties = new Properties();
-				FileInputStream myPropertiesFile = new FileInputStream("C:\\Users\\Lenovo\\eclipse-workspace\\CoverfoxMaven1\\src\\main\\resources\\config\\config.properties");
+				FileInputStream myPropertiesFile = new FileInputStream("C:\\Users\\dkwan\\eclipse-practice\\CoverfoxLenovo\\CoverfoxMaven1\\src\\main\\resources\\config\\config.properties");
 				properties.load(myPropertiesFile);
 				
 				String value = properties.getProperty(key);

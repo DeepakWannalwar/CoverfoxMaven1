@@ -7,13 +7,11 @@ import org.openqa.selenium.support.PageFactory;
 
 public class POM1_Home_Page {
 
-	public class POM1_HomePage {
-
 		//1) Data members
 		@FindBy(xpath = "//*[text()='Get Started']") private WebElement getStartedButton;
 		
 		//2) constructor
-		public POM1_HomePage(WebDriver driver)
+		public POM1_Home_Page(WebDriver driver)
 		{
 			PageFactory.initElements(driver, this);
 		}
@@ -25,5 +23,5 @@ public class POM1_Home_Page {
 			System.out.println("clicking on getStartedButton");
 		}
 		
-	}
+	
 }
