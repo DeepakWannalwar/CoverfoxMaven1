@@ -7,7 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 
 public class POM1_Home_Page {
 
-	
 
 		//1) Data members
 		@FindBy(xpath = "//*[text()='Get Started']") private WebElement getStartedButton;

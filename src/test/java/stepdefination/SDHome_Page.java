@@ -14,6 +14,7 @@ public class SDHome_Page {
 	@Given("I am on Home page")
 	public void i_am_on_home_page() {
 	    System.out.println("I am on Home page");
+	    System.out.println("ok");
 	}
 
 	@When("I click on get started button")
